@@ -1,241 +1,259 @@
-=======================================================
-              LOUP-GAROU MINECRAFT
-                  README.txt
-=======================================================
+# 🐺 Loup-Garou Minecraft
+
+![Minecraft](https://img.shields.io/badge/Minecraft-Java%20Edition-green)
+![HTML](https://img.shields.io/badge/HTML5-orange)
+![CSS](https://img.shields.io/badge/CSS3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-yellow)
+
+---
+
+## 📌 Présentation
+
+**Loup-Garou Minecraft** est un serveur Minecraft Java inspiré du célèbre jeu de société **Loup-Garou**.
+
+Le projet a pour objectif de proposer une expérience immersive basée sur :
+
+- 🐺 Le Roleplay
+- 🧠 La stratégie
+- 🔎 La déduction
+- 💬 La communication entre joueurs
+- 🎭 Des parties personnalisées
+- 🏘️ Une immersion complète dans Minecraft
 
 
-📌 Présentation
----------------
+---
 
-Loup-Garou Minecraft est un serveur Minecraft Java
-inspiré du célèbre jeu du Loup-Garou.
+# 📁 Structure du projet
 
-Le projet vise à proposer une expérience immersive
-mélangeant :
-- Roleplay
-- Stratégie
-- Déduction
-- Communication entre joueurs
-- Parties personnalisées
-
-
-=======================================================
-📁 Structure du projet
-=======================================================
-
-
+```
 /
-
-├── index.html
-├── roles.html
-├── faq.html
-├── recrutement.html
-├── reglement.html
-├── discord.html
 │
+├── index.html
 ├── styles.css
 ├── script.js
 │
 ├── assets/
 │   ├── images/
 │   │   ├── logo.png
-│   │   ├── serveur.png
-│   │   └── autres images
-│   │
-│   └── icons/
+│   │   └── server.png
 │
-└── README.txt
+└── README.md
+```
 
 
-=======================================================
-🚀 Installation
-=======================================================
+---
+
+# 🚀 Installation
+
+## Installation locale
+
+1. Télécharger ou cloner le projet.
+
+2. Garder tous les fichiers dans le même dossier.
+
+3. Ouvrir le fichier :
+
+```
+index.html
+```
+
+avec votre navigateur.
+
+Aucun serveur web n'est nécessaire pour tester le site en local.
 
 
-1) Télécharger ou cloner le projet.
+---
 
-2) Garder tous les fichiers dans le même dossier.
+# 🌐 Pages du site
 
-3) Ouvrir :
+Le site est organisé en plusieurs sections :
 
-    index.html
+## 🏠 Accueil
 
-avec un navigateur.
-
-
-Aucun serveur web obligatoire pour tester
-le site en local.
+Présentation du serveur, informations principales,
+images et accès rapides.
 
 
-=======================================================
-🌐 Pages disponibles
-=======================================================
+## 🎭 Rôles
+
+Présentation des différents rôles disponibles :
+
+- Loup-Garou
+- Voyante
+- Sorcière
+- Chasseur
+- Petite Fille
+- Villageois
+- Cupidon
+- Et bien plus...
 
 
-🏠 Accueil
+## ❓ FAQ
 
-Présentation du serveur, nouveautés,
-images et accès rapide.
+Réponses aux questions fréquentes concernant :
 
-
-🐺 Rôles
-
-Présentation des différents rôles disponibles
-dans les parties.
+- Le serveur
+- Le gameplay
+- Les règles
+- Les conditions de participation
 
 
-❓ FAQ
+## 🛡️ Règlement
 
-Réponses aux questions fréquentes concernant
-le serveur et son fonctionnement.
+Présentation des règles du serveur :
+
+- Respect des joueurs
+- Comportement attendu
+- Sanctions
+- Conditions de jeu
 
 
-👥 Recrutement
+## 👥 Recrutement
 
-Page dédiée aux candidatures :
+Informations concernant les recrutements :
+
+- Staff
 - Modération
 - Développement
-- Construction
 - Animation
 
 
-📜 Règlement
+## 💬 Discord
 
-Règles officielles du serveur et comportement
-attendu des joueurs.
+Connexion avec la communauté via Discord.
 
-
-💬 Discord
-
-Lien vers la communauté Discord officielle.
+Le site intègre le widget Discord officiel afin de rejoindre facilement le serveur.
 
 
-=======================================================
-🎨 Design
-=======================================================
+---
+
+# 🎨 Design
+
+Le site utilise un design moderne avec :
+
+- 🔴 Couleurs principales rouges/noires
+- 🌙 Mode sombre et mode clair
+- ✨ Halos rouges animés
+- 🎞️ Animations au scroll
+- 🖼️ Effets de zoom sur les images
+- 🌈 Dégradés et effets de survol
+- 📱 Design responsive
 
 
-Le site utilise :
+---
 
-- Design moderne
-- Couleurs principales rouges/noires
-- Mode clair et sombre
-- Animations au scroll
-- Effets de survol
-- Halos rouges animés
-- Responsive mobile
+# 📱 Compatibilité
 
+Le site fonctionne sur :
 
-=======================================================
-📱 Compatibilité
-=======================================================
+✔ Ordinateur  
+✔ Tablette  
+✔ Téléphone  
 
 
-Le site est compatible avec :
-
-✔ Ordinateur
-✔ Tablette
-✔ Téléphone
+Le menu mobile possède une navigation adaptée avec ouverture et fermeture animée.
 
 
-Le menu mobile possède une navigation
-adaptée avec ouverture/fermeture animée.
+---
+
+# ⚙️ Fonctionnalités
+
+- ✅ Dark mode / Light mode
+- ✅ Menu mobile responsive
+- ✅ Animations d'apparition
+- ✅ Effets sur les images
+- ✅ Bouton retour en haut
+- ✅ Copie de l'adresse serveur
+- ✅ Widget Discord intégré
+- ✅ Navigation entre les pages
+- ✅ Design adaptable mobile
 
 
-=======================================================
-⚙️ Fonctionnalités
-=======================================================
+---
+
+# 🛠️ Technologies utilisées
+
+## Front-end
+
+- HTML5
+- CSS3
+- JavaScript Vanilla
+
+## Ressources
+
+- Google Fonts (Inter)
+- SVG Icons
+- Lucide Icons
 
 
-✓ Dark mode / Light mode
+---
 
-✓ Menu mobile
+# 🖼️ Gestion des images
 
-✓ Animations d'apparition
+Les images doivent être placées dans :
 
-✓ Effets sur les images
-
-✓ Bouton retour en haut
-
-✓ Copie automatique de l'adresse serveur
-
-✓ Navigation multi-pages
-
-
-=======================================================
-🛠 Technologies utilisées
-=======================================================
-
-
-HTML5
-
-CSS3
-
-JavaScript Vanilla
-
-Google Fonts (Inter)
-
-Lucide Icons / SVG
-
-
-=======================================================
-🖼️ Images
-=======================================================
-
-
-Les images du serveur doivent être placées dans :
-
+```
 assets/images/
+```
 
 
 Exemple :
 
+```
 assets/images/logo.png
 
 assets/images/server.png
+```
 
 
-Puis utilisées dans le HTML :
+Utilisation dans le HTML :
 
-
-<img src="assets/images/logo.png"
+```html
+<img 
+src="assets/images/logo.png" 
 alt="Logo Loup-Garou Minecraft">
+```
 
 
-=======================================================
-🎮 Serveur Minecraft
-=======================================================
+---
 
+# 🎮 Serveur Minecraft
 
-Version :
+## Version
+
+```
 Minecraft Java Edition
+```
 
 
-Adresse :
+## Adresse
+
+```
 Ouverture prochaine
+```
 
 
-Launcher :
+## Launcher
+
+```
 Aucun launcher obligatoire
+```
 
 
-=======================================================
-👨‍💻 Créateur
-=======================================================
+---
 
+# 👨‍💻 Créateur
 
 Projet créé par :
 
-Martin92yt
-
+**Martin92yt**
 
 Développé avec ❤️ pour la communauté.
 
 
-=======================================================
-📄 Licence
-=======================================================
+---
 
+# 📄 Licence
 
 Projet privé.
 
@@ -243,4 +261,6 @@ Toute copie, modification ou redistribution
 sans autorisation est interdite.
 
 
-=======================================================
+---
+
+⭐ Merci de suivre le projet **Loup-Garou Minecraft** !
